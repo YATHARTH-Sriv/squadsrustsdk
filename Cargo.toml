@@ -5,8 +5,6 @@ edition = "2024"
 description = "A lightweight Rust SDK for interacting with the Squads Smart Account Program"
 repository = "https://github.com/YATHARTH-Sriv/squadsrustsdk"
 readme = "README.md"
-license = "AGPL-3.0-or-later"
-keywords = ["solana", "squads", "smart-account", "sdk"]
 
 [dependencies]
 borsh = { version = "1.8.1", features = ["derive"] }

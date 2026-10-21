@@ -1,5 +1,7 @@
 # Rust SDK squadsrust_sdk 
 
+## SDK is still under development and is more of a learning Project I am not associated with Sqauds Team 
+
 A focused Rust SDK for interacting with the Squads Smart Account Program 
 
 - Derives Squads PDAs and decodes supported onchain accounts.
@@ -9,7 +11,7 @@ A focused Rust SDK for interacting with the Squads Smart Account Program
 
 ## Installation 
 
-    cargo add squadsrust_sdk
+    cargo add squadsrust_sdk ( NOT YET PUBLISHED )
 
 ## Build on Squads Smart Account Program v0.1 
 

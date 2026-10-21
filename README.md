@@ -39,8 +39,7 @@ A focused Rust SDK for interacting with the Squads Smart Account Program
 ### Transaction  
     - create 
     - decode 
-    - approve
-    - reject 
+    - execute
 
 ### Policies 
     - ( To Be Continued Before Gta VI ) 
@@ -256,6 +255,12 @@ squadsrust_sdk::pda::transaction_pda ( settings_pda , transaction_index )
     -decode_transaction_account
 
 ----
+
+## Current Limitations 
+
+1. Policy payloads are unsupported.
+2. Execution with address lookup tables is unsupported.
+3. Execution with ephemeral signers is unsupported.
 
 ## Going Ahead
 ( Need To Work On Supporting Policies and Also Create Examples and Tests for more than just SOL transfers )

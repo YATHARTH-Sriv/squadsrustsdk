@@ -1,0 +1,81 @@
+[package]
+name = "squadsrust_sdk"
+version = "0.1.0"
+edition = "2024"
+description = "A lightweight Rust SDK for interacting with the Squads Smart Account Program"
+repository = "https://github.com/YATHARTH-Sriv/squadsrustsdk"
+readme = "README.md"
+license = "AGPL-3.0-or-later"
+keywords = ["solana", "squads", "smart-account", "sdk"]
+
+[dependencies]
+borsh = { version = "1.8.1", features = ["derive"] }
+sha2 = "0.11.1"
+solana-sdk = "4.1.0"
+thiserror = "2"
+
+[dev-dependencies]
+dotenvy = "0.15.7"
+solana-rpc-client = "4.3.2"
+solana-system-interface = { version = "3.3.0", features = ["bincode"] }
+
+[[example]]
+name="programconfig_read"
+path="examples/program_config/read.rs"
+
+[[example]]
+name="settings_create"
+path="examples/settings/create.rs"
+
+[[example]]
+name="settings_read"
+path="examples/settings/read.rs"
+
+[[example]]
+name="settings_adding_signer"
+path="examples/settings/add_signer.rs"
+
+[[example]]
+name="settings_change_threshold"
+path="examples/settings/change_threshold.rs"
+
+[[example]]
+name="settings_remove_signer"
+path="examples/settings/remove_signer.rs"
+
+[[example]]
+name="settings_set_timelock"
+path="examples/settings/set_timelock.rs"
+
+[[example]]
+name="proposal_create"
+path="examples/proposal/create.rs"
+
+[[example]]
+name="proposal_read"
+path="examples/proposal/read.rs"
+
+[[example]]
+name="proposal_approve"
+path="examples/proposal/approve.rs"
+
+[[example]]
+name="proposal_reject"
+path="examples/proposal/reject.rs"
+
+[[example]]
+name="transaction_create"
+path="examples/transaction/create.rs"
+
+[[example]]
+name="transaction_read"
+path="examples/transaction/read.rs"
+
+[[example]]
+name="transaction_execute"
+path="examples/transaction/execute.rs"
+
+
+
+
+
